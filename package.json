@@ -1,6 +1,6 @@
 {
   "name": "victorwebserver",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "this package contains a very simple web server",
   "main": "server.js",
   "scripts": {
