@@ -1,8 +1,8 @@
 // Require http module
-const http = Require('node:http');
+const http = require('node:http');
 
 // Require fs module
-const fs = Require('fs');
+const fs = require('fs');
 
 
 
@@ -25,8 +25,7 @@ if (err){
 console.error(err);
 return;
 }
-Console.log(data);
-})
+
 
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
@@ -48,7 +47,7 @@ res.statusCode = 200;
 res.SetHeader('Content-Type', 'text/html');
 res.end(data);
 
-})
+});
 
 
 // Start the `server` const listening on the port defined by argument in your `port` const. 
@@ -59,6 +58,7 @@ server.listen(port, () {
 console.log('Server running at port ${port}')
 
 
-})
+});
+});
 
 // That's it! You're all done!
